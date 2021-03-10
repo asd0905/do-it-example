@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+import React, {Component} from "react";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+        // 아래는 jsx 입니다.
+        <div>
+            <img src="http://www.easyspub.co.kr/images/logo_footer.png" alt="alt"/>
+            <div>안녕하세요</div>
+        </div>
+    )
+  }
 }
 
 export default App;
